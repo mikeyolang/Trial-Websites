@@ -1,0 +1,295 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  padding: 0px;
+}
+.header {
+  font-family: sans-serif;
+  font-size: 11px;
+  background-color: skyblue;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  display: inline-flex;
+  position: relative;
+  width: 100%;
+}
+
+.one {
+  position: relative;
+  left: 300px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-flex;
+  position: relative;
+  left: 400px;
+  padding: 2px 10px;
+  margin: 3px;
+}
+.uno {
+    position: relative;
+    right: 20px;
+}
+
+.icons {
+  position: relative;
+  left: 700px;
+  text-decoration: none;
+  list-style: none;
+  display: inline-flex;
+  position: relative;
+  font-size: 11px;
+  padding: 2px 5px;
+  top: 2px;
+  
+}
+.icons li{
+    padding: 3px 10px;
+}
+.navigation {
+  background-color: white;
+  display: inline-flex;
+  font-family: sans-serif;
+  position: relative;
+  font-weight: lighter;
+  background-size: cover;
+  width: 100%;
+}
+
+.appointment {
+  position: relative;
+  left: 650px;
+  top: 15px;
+}
+.button {
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 12px 22px;
+  border-radius: 22px;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
+button:hover {
+  background: white;
+  transition-delay: 0.3s;
+  transition: 0.3s;
+  color: cornflowerblue;
+  border: 1px solid cornflowerblue;
+}
+.nav {
+  position: relative;
+  left: 300px;
+  top: 15px;
+}
+.nav ul {
+  display: inline-flex;
+  list-style: none;
+  text-decoration: none;
+  position: relative;
+  width: 200px;
+}
+.nav ul li {
+  width: 100px;
+  margin: 10px;
+  padding: 1px 10px;
+  font-size: 11px;
+  text-decoration: none;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+.nav ul li a:hover {
+  border-radius: 22px;
+  background: white;
+  color: blue;
+  transition: 0.3s;
+  border: 1px solid cornflowerblue;
+  padding: 2px 5px;
+}
+.logo {
+  position: relative;
+  padding: 10px 15px;
+  left: 200px;
+  font-family: sans-serif;
+  font-weight: lighter;
+}
+.health {
+  color: skyblue;
+}
+.doctor {
+  background-image: url(pictures/doctors.jpg);
+  color: black;
+  min-height: 540px;
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.offer {
+  position: relative;
+  padding: 150px 200px;
+}
+.special {
+  font-size: 50px;
+  font-family: sans-serif;
+  color: black;
+}
+.free {
+  position: relative;
+  font-size: 40px;
+  color: aqua;
+  bottom: 20px;
+}
+.week {
+  position: relative;
+  bottom: 30px;
+  font-size: 40px;
+}
+.readButton {
+  position: relative;
+  bottom: 30px;
+  background: red;
+  padding: 12px 15px;
+  border-radius: 22px;
+  border: none;
+  color: white;
+}
+.readButton:hover {
+  background: white;
+  transition: 0.3s;
+  cursor: pointer;
+  color: cornflowerblue;
+}
+.brag {
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+.cure {
+  background: white;
+  color: rgb(24, 102, 165);
+  padding: 12px 15px;
+  font-family: sans-serif;
+}
+.america {
+  text-align: center;
+  padding: 10px 15px;
+  font-family: sans-serif;
+}
+.information {
+  background-color: rgb(100, 205, 237);
+  position: relative;
+  top: 60px;
+  display: inline-flex;
+  padding: 20px 20px;
+  width: 100%;
+  min-height: 350px;
+  color: white;
+  
+}
+.box {
+  text-align: center;
+  padding: 0px 50px;
+
+}
+.box h1{
+    font-size: 14x;
+}
+.boxer {
+  position: relative;
+  top: 20px;
+  font-size: 11px;
+}
+.moreButton {
+  position: relative;
+  border-radius: 22px;
+  padding: 12px 15px;
+  color: cadetblue;
+  background: white;
+  border: none;
+  cursor: pointer;
+  top: 40px;
+  transition: 0.3s;
+}
+.moreButton1 {
+  position: relative;
+  border-radius: 22px;
+  padding: 12px 15px;
+  color: cadetblue;
+  background: white;
+  border: none;
+  cursor: pointer;
+  top: 60px;
+  transition: 0.3s;
+}
+.moreButton2 {
+  position: relative;
+  border-radius: 22px;
+  padding: 12px 15px;
+  color: cadetblue;
+  background: white;
+  border: none;
+  cursor: pointer;
+  top: 60px;
+  transition: 0.3s;
+}
+.moreButton:hover,
+.moreButton1:hover,
+.moreButton2:hover {
+  background: white;
+  color: blue;
+  transition: 0.3s;
+}
+.doc{
+    font-size: 30px;
+    color:  rgb(100, 205, 237);
+    min-height: 100px;
+    position: relative;
+    top: 100px;
+    text-align: center;
+
+}
+.state{
+    text-align: center;
+    position: relative;
+    top: 40px;
+}
+
+
+.pictures{
+    background-color: white;
+  display: inline-flex;
+  font-family: sans-serif;
+  position: relative;
+  font-weight: lighter;
+  background-size: cover;
+  width: 100%;
+  top: 30px;
+}
+.pic{
+    position: relative;
+    align-items: center;
+    padding: 0px 30px;
+    text-align: center;
+}
+.tag{
+     color: aqua;
+     font-family: sans-serif;
+     font-size: 27px;
+     position: relative;
+     top: 5px;
+
+}
+.overview{
+  position: relative;
+  bottom: 5px;
+  font-family:monospace;
+}
+
+.description{
+  position: relative;
+  top: 10px;
+  font-family: sans-serif;
+}

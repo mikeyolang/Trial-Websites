@@ -1,0 +1,174 @@
+*{
+    box-sizing: border-box;
+    
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(233, 239, 250);
+}
+.navbar{
+    width: 100%;
+    background-color:#415E9C;
+    height: 100px;
+padding: 5px;
+
+}
+.tittle {
+  color: white;
+  position: relative;
+  left: 150px;
+  top: 20px;
+font-size: 40px;
+font-weight: 600;
+}
+.email {
+   color: white;
+   position: relative;
+   left: 610px;
+   font-size: 20px;
+}
+.password{
+color: white;
+position: relative;
+left: 730px;
+font-size: 20px;
+}
+.inemail{
+   position: relative;
+   left: 770px;
+   font-size: 15px;
+}
+.inpass{
+ position: relative;
+ left: 800px;
+ font-size: 15px;
+}
+.log{
+    border-radius: 0px;
+    color:white;
+    background-color: rgb(55, 35, 185);
+    position: relative;
+    left: 800px;
+    border: 1px solid #4e6896;
+
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 17px;
+    display: inline-flexbox;
+}
+.log:hover {
+    background-color: blue;
+    border-radius:2px ;
+}
+.forget{
+    position: relative;
+    left: 770px;
+    bottom: 12px;
+    text-decoration: none;
+    color: crimson;
+    font-size: 17px;
+    font-family: Arial;
+
+}
+.create {
+    font-size: 50px;
+    position: relative;
+    right:770px; 
+    font-family: Arial;
+    color:black;
+    
+    
+    
+}
+.image {
+    position: relative;
+    margin-right:400px;
+    background-size: cover;
+    float:left;
+    height: 400px;
+    width: 650px;
+    left: 60px;
+    margin-top: 0px;
+    
+}
+.quick {
+ font-family: Arial;
+ position: relative;
+ right: 270px;
+ font-size: 20px;
+ font-weight:600;
+
+}
+ .pname {
+     position: relative;
+     right: 270px;
+     font-size: 20px;
+ }
+ .psname{
+     position: relative;
+     right: 0px;
+     bottom: 30px;
+     font-size: 20px;
+ } 
+ .pmail {
+     position: relative;
+     right: 268px;
+     height: 20px;
+     width: 290px;
+     font-size: 20px;
+     
+     
+ }
+ .pnpass{
+     position: relative;
+     right: 268px;
+     top: 20px;
+     font-size: 20px;
+ }
+ .date {
+     position: relative;
+     right: 265px;
+     font-size: 25px;
+     top: 10px;
+     font-family: Arial;
+     font-weight: 600;
+ }
+
+ .gender{
+ position: relative;
+ right: 265px;
+ font-size: 20px;
+ font-weight: 600;
+ font-family: Arial;
+ }
+ .radio{
+     position: relative;
+     right: 270px;
+     top: 0px;
+     font-size:17px ;
+
+ }
+ .but{
+     position: relative;
+     font-size: 30px;
+     left: -270px;
+     border-radius: 10px;
+     height: 50px;
+     background-color:green;
+     
+ }
+ .last{
+     text-decoration: none;
+     font-family: Arial;
+     position: relative;
+     left: 785px;
+ }
+ .but:hover{
+     background-color: rgb(14, 245, 14);
+     border-radius: 5px;
+     cursor: pointer;
+     border: 1px solid rgb(16, 230, 16);
+ }
+
